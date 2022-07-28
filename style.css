@@ -209,3 +209,61 @@ h2.title {
 	margin-top: 15px;
 }
 
+.waiting {
+	height: 607px;
+	background: #FFFFFF;
+	padding: 88px 0 75px 0;
+}
+
+.waiting .waiting__header {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.waiting .waiting__divider {
+	width: 217px;
+	height: 4px;
+	background: #F9BF3B;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.waiting .waiting__subheader {
+	margin-top: 20px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.waiting .waiting__wrapper {
+	margin-top: 46px;
+}
+
+.waiting .waiting__wrapper .waiting__item {
+	display: inline-block;
+	vertical-align: top;
+	width: 342px;
+	text-align: center;
+	margin: 0 15px;
+}
+
+.waiting .waiting__wrapper .waiting__item .waiting__img {
+	width: 100%;
+}
+
+.waiting .waiting__wrapper .waiting__item .waiting__descr {
+	margin-top: 26px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	color: #4A4A4A;
+}
