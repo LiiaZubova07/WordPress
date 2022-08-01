@@ -439,3 +439,43 @@ h2.title {
 	text-align: center;
 	color: #4A4A4A;
 }
+
+
+/*------------------SECTION 7-------------*/
+
+a {
+	text-align: center;
+	text-decoration-line: underline;
+	color: #888888;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	min-height: 169px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: center;
+	color: #888888;
+	background: #1A1A1A;
+}
+
+.footer__links {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.footer__help {
+	padding-right: 10px;
+}
+
+.footer__divider {}
+
+.footer__privat {
+	padding-left: 10px;
+}
+
+.footer__phone {}
