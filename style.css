@@ -95,6 +95,7 @@ h6 {
 	width: 1140px;
 	margin: 0 auto;
 	/*блочные элементы по центру*/
+	position: relative;
 }
 
 .promo {
@@ -210,7 +211,7 @@ h2.title {
 }
 
 .waiting {
-	height: 607px;
+	min-height: 607px;
 	background: #FFFFFF;
 	padding: 88px 0 75px 0;
 }
@@ -244,15 +245,14 @@ h2.title {
 }
 
 .waiting .waiting__wrapper {
+	display: flex;
+	justify-content: space-between;
 	margin-top: 46px;
 }
 
 .waiting .waiting__wrapper .waiting__item {
-	display: inline-block;
-	vertical-align: top;
 	width: 342px;
 	text-align: center;
-	margin: 0 15px;
 }
 
 .waiting .waiting__wrapper .waiting__item .waiting__img {
@@ -267,3 +267,44 @@ h2.title {
 	line-height: 21px;
 	color: #4A4A4A;
 }
+
+.optimisation {
+	min-height: 550px;
+	padding: 162px 0 162px 0;
+}
+
+.optimisation .optimisation__header {
+	color: #299CBD;
+	margin-left: 391px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 29px;
+	text-transform: uppercase;
+
+}
+
+.optimisation .optimisation__text {
+	margin-top: 25px;
+	color: #4A4A4A;
+	margin-left: 391px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 27px;
+}
+
+.optimisation .optimisation__text span {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 27px;
+	color: #4A4A4A;
+}
+
+.optimisation .optimisation__img {
+position: absolute;
+top: -48px;
+left: -240px;
+z-index: -1;
+}
+
