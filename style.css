@@ -154,6 +154,8 @@ h2.title {
 
 .line {}
 
+/*------------------SECTION 1-------------*/
+
 .promo .promo__text {
 	padding: 0 13px;
 	margin-top: 23px;
@@ -171,7 +173,8 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo__btn {
+.promo .promo__btn,
+.present .present__btn {
 	display: block;
 	margin: 0px auto;
 	margin-top: 72px;
@@ -209,6 +212,8 @@ h2.title {
 	margin: 0 auto;
 	margin-top: 15px;
 }
+
+/*------------------SECTION 2-------------*/
 
 .waiting {
 	min-height: 607px;
@@ -270,6 +275,8 @@ h2.title {
 	color: #4A4A4A;
 }
 
+/*------------------SECTION 3-------------*/
+
 .optimisation {
 	min-height: 550px;
 	padding: 162px 0 162px 0;
@@ -310,6 +317,8 @@ h2.title {
 	z-index: -1;
 }
 
+/*------------------SECTION 4-------------*/
+
 .finish {
 	min-height: 450px;
 	padding-top: 86px;
@@ -346,14 +355,45 @@ h2.title {
 }
 
 .finish .finish__wrapper .finish__item .finish__descr {
-margin-top: 25px;
-text-align: center;
-font-family: 'Roboto';
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
-color: #EFEFEF;
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: center;
+	color: #EFEFEF;
 }
 
 .finish .finish__icon {}
+
+/*------------------SECTION 5-------------*/
+
+.present {
+	min-height: 631px;
+	background-color: #EFEFEF;
+	padding-top: 88px;
+	padding-bottom: 88px;
+}
+
+.present .present__icon {
+	display: block;
+	margin: 0 auto;
+	/* margin-top: 88px; */
+}
+
+.present .present__text {
+	margin-top: 45px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 43px;
+	text-align: center;
+	color: #252525;
+}
+
+.present .present__btn {
+	margin-top: 51px;
+}
+
+/*------------------SECTION 6-------------*/
