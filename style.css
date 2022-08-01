@@ -376,7 +376,8 @@ h2.title {
 	padding-bottom: 88px;
 }
 
-.present .present__icon {
+.present .present__icon,
+.online .online__icon {
 	display: block;
 	margin: 0 auto;
 	/* margin-top: 88px; */
@@ -397,3 +398,44 @@ h2.title {
 }
 
 /*------------------SECTION 6-------------*/
+
+.online {
+	min-height: 512px;
+	padding-top: 80px;
+	padding-bottom: 52px;
+	background-color: #FFFFFF;
+}
+
+.online .online__icon {}
+
+.online .online__header {
+	margin-top: 36px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.online .online__header-time {
+	margin-top: 30px;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #299CBD;
+}
+
+.online .online__paragraph {
+	margin-top: 25px;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	text-align: center;
+	color: #4A4A4A;
+}
